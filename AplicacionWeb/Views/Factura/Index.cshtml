@@ -1,0 +1,93 @@
+﻿
+
+
+@{
+    ViewBag.Title = "FACTURA";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+@Styles.Render("~/Content/css")
+
+<link rel="stylesheet" type="text/css" href="~/Content/Styl.css">
+
+
+<div class="container body-content">
+    <div id="cuerpo">
+
+        <center> <h3>COMPAÑIA ELECTRICA</h3> </center>
+        <center> <h6>DISTRIBUIDORA DE ELECTRICIDAD</h6> </center>
+        <center> <h6>GUATEMALA, GUATEMALA</h6> </center>
+
+        <form role="form">
+
+                <div class="form-group" id="Cod">
+                <label for="Cod">Codigo Cliente</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group" id="Nom">
+                <label for="Nom">Nombre</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group" id="Ape">
+                <label for="Ape">Apellido</label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group" id="Mes">
+                <label for="Mes">Mes</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group" id="Direc">
+                <label for="Direc">Direccion</label>
+                <input type="text" class="form-control " id="D">
+            </div>
+            <div class="form-group" id="Fecha_Emision">
+                <label for="Fecha_Emision">Fecha de Emision</label>
+                <input type="date" class="form-control ">
+            </div>
+
+            <div class="form-group" id="Total">
+                <label for="Total">Total a Pagar</label>
+                <input type="text" class="form-control ">
+            </div>
+
+            <div class="form-group" id="Fecha_Pago">
+                <label for="Fecha_Pago">Fecha Sugeriada a Pagar</label>
+                <input type="date" class="form-control ">
+            </div>
+            <div class="form-group" id="Consumo">
+                <label for="Consumo">Consumo de Energia</label>
+                <input type="text" class="form-control ">
+            </div>
+
+            <div class="form-group" id="No_Contador">
+                <label for="No_Contador">Numero de Contador</label>
+                <input type="text" class="form-control ">
+            </div>
+            <div class="form-group" id="Tipo_Consumo">
+                <label for="Tipo_Consumo">Tipo de Consumo</label>
+                <input type="text" class="form-control ">
+            </div>
+            <div class="form-group" id="Lectura_An">
+                <label for="Lectura_An">Lectura Anterior</label>
+                <input type="text" class="form-control ">
+            </div>
+            <div class="form-group" id="Lectura_Ac">
+                <label for="Lectura_Ac">Lectura Actual</label>
+                <input type="text" class="form-control ">
+            </div>
+
+
+            <div id="boton">
+                <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+
+

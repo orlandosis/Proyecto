@@ -1,0 +1,84 @@
+﻿body {
+}
+
+
+
+#Cod{
+    position: absolute;
+    left: 800px;
+    top: 185px;
+}
+#Nom {
+    position: absolute;
+    left: 400px;
+    top: 185px;
+}
+
+#Ape {
+    position: absolute;
+    left: 140px;
+    top: 185px;
+}
+#Mes {
+    position: absolute;
+    left: 800px;
+    top: 255px;
+}
+#Direc {
+    position: absolute;
+    left: 140px;
+    top: 255px;
+    width:700px;
+   
+}
+#boton {
+    position: absolute;
+    left: 500px;
+    top: 595px;
+}
+#D {
+    width: 300px;
+}
+
+#Fecha_Emision{
+    position: absolute;
+    left: 800px;
+    top: 325px;
+}
+
+#Total {
+    position: absolute;
+    left: 140px;
+    top: 335px;
+}
+#Fecha_Pago {
+    position: absolute;
+    left: 140px;
+    top: 415px;
+}
+#Consumo {
+    position: absolute;
+    left: 440px;
+    top: 335px;
+}
+
+#No_Contador {
+    position: absolute;
+    left: 380px;
+    top: 500px;
+}
+#Tipo_Consumo {
+    position: absolute;
+    left: 140px;
+    top: 500px;
+}
+#Lectura_An {
+    position: absolute;
+    left: 625px;
+    top: 500px;
+}
+#Lectura_Ac {
+    position: absolute;
+    left: 860px;
+    top: 500px;
+}
